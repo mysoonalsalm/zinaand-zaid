@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+* {
+  font-family: 'Tajawal', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*-----------header format-----------------*/
+
+
+
+* {
+  font-family: 'Tajawal', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+nav {
+  direction: rtl;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+
+
+.btn .fa-solid {
+  font-size: 30px;
+  color: rgb(51, 119, 12);
+}
+
+
+
+.M-sec-1 {
+  width: 100%;
+  min-height: 100vh;
+  background: url(bg102.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 130px;
+  direction: rtl;
+
+}
+
+
+/*------------end the header format-----------------------*/
+
+
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.M-sec-1 .main{
+  margin-top: 30px;
+}
+
+.Mcard{
+  min-height:  14em; 
+  width: 13em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition:0.7s ease ;
+  box-shadow: 0 5px 25px rgba(1 1 1/ 70%);
+}
+.Mcard:hover{
+  transform: scale(1.1);
+}
+
+.image img{
+  width: 100%;
+}
+
+.Mcard:hover .image{
+  opacity: 0.9;
+}
+
+.info{
+  padding: 1em ;
+  text-align: center;
+}
+
+.category{
+ font-size: 20px;
+ font-weight: 700;
+ text-align: center;
+}
+
+
+/*card 1*/
+#C1{
+  background-color:#c4e7ea ;
+  border: 5px solid #c4e7ea;
+}
+
+.more-details{
+  text-decoration: none;
+  color:#0011ff ;
+}
+.more-details:hover{
+  color :#d11717 ;
+}
+
+
+/*card 2*/
+#C2{
+  background-color:#facff3 ;
+  border: 5px solid #facff3;
+}
+
+#C2 .more-details{
+  text-decoration: none;
+  color:#a30694 ;
+}
+#C2 .more-details:hover{
+  color :#d11717 ;
+}
+
+
+/*card 3*/
+#C3{
+  background-color:#c2f8aa ;
+  border: 5px solid #c2f8aa;
+}
+
+#C3 .more-details{
+  text-decoration: none;
+  color:#246809 ;
+}
+#C3 .more-details:hover{
+  color :#d11717 ;
+}
+
+
+
+/*card 4*/
+#C4{
+  background-color:#FFFFE0 ;
+  border: 5px solid #FFFFE0;
+}
+
+#C4 .more-details{
+  text-decoration: none;
+  color:#ebb70a ;
+}
+#C4 .more-details:hover{
+  color :#d11717 ;
+}
+
+
+
+/*card 5*/
+#C5{
+  background-color:#dd9e9e ;
+  border: 5px solid #dd9e9e;
+}
+
+#C5 .more-details{
+  text-decoration: none;
+  color:#c10d0d ;
+}
+#C5 .more-details:hover{
+  color :#d11717 ;
+}
+
+
+
+/*card 6*/
+#C6{
+  background-color:#eadca4 ;
+  border: 5px solid #eadca4;
+}
+
+#C6 .more-details{
+  text-decoration: none;
+  color:#a06800 ;
+}
+#C6 .more-details:hover{
+  color :#d11717 ;
+}

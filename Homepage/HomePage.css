@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+* {
+    font-family: 'Tajawal', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+nav {
+    direction: rtl;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.M-sec-1 {
+    width: 100%;
+    min-height: 100vh;
+    background: url(bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 130px;
+    padding-right: 80px;
+    direction: rtl;
+}
+
+.btn .fa-solid {
+    font-size: 30px;
+    color: rgb(51, 119, 12);
+}
+
+
+
+.container h1 {
+    font-size: 49px;
+    font-weight: 800;
+    color: rgb(100, 164, 3);
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(51, 79, 10);
+}
+
+
+.container a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(100, 164, 3);
+
+}
+
+#a1 {
+    background-color: rgb(100, 164, 3);
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+
+#a2 {
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 1px solid rgb(100, 164, 3);
+    background-color: #fff;
+}
+
+
+
+
+/*----------------------------img slider format--------------------------------------------------*/
+
+.slider {
+    width: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 70%);
+}
+
+.slides {
+    width: 500%;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 700px;
+
+}
+
+
+/*css for automatic navigation*/
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+
+}
+
+.manual-btn {
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: #40D3DC;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+#radio4:checked~.first {
+    margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+    margin-left: 15%;
+
+}
+
+.navigation-auto div {
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    visibility: hidden;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background: #40D3DC;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background: #40D3DC;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background: #40D3DC;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+    background: #40D3DC;
+}
+
+/*--------------------section 2--------------------------------------*/
+
+
+/*---------------------section 2 format------------------------------*/
+.M-sec-2 {
+    width: 100%;
+    min-height: 100vh;
+    background: url(bg102.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+  }
+  
+  /*---------title format code--------------*/
+  .M-sec-2 h1 {
+    position: relative;
+    font-size: 6em;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+  
+  }
+  
+  /*------Animation code on the title------*/
+  @keyframes animate {
+  
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+      color: #26d100;
+      text-shadow: none;
+    }
+  
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+      color: #fff;
+      text-shadow: 0 0 10px #26d100,
+        0 0 20px #26d100,
+        0 0 40px #26d100,
+        0 0 80px #26d100,
+        0 0 160px #26d100;
+  
+    }
+  }
+  
+  
+  /* Start Video section */
+  .n-vid-abou-us video {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 100px;
+  }
+  
+  /* end Video section */
+
+  
+/* start cards*/
+.n-sec3{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:url("des.gif") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+background-position: center;
+  overflow: hidden;
+}
+
+.Ncard {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:30px;
+}
+
+.Ncard-Nimage {
+  grid-area: image;
+  background: url("21.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+.card-text .date {
+  color: rgb(255, 7, 110);
+  font-size:20px;
+}
+.card-text p {
+  color: grey;
+  font-size:20px;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top:0px;
+  font-size:28px;
+}
+.Ncard-Nstats {
+  grid-area: stats; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: rgb(255, 7, 110);
+}
+.Ncard-Nstats .Nstat {
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.Ncard-Nstats .Nborder {
+  border-left: 1px solid rgb(172, 26, 87);
+  border-right: 1px solid rgb(172, 26, 87);
+}
+.Ncard-Nstats .value{
+  font-size:22px;
+  font-weight: 500;
+}
+.Ncard-Nstats .value sup{
+  font-size:12px;
+}
+.Ncard-Nstats .type{
+  font-size:11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.Ncard:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/*card2*/
+.Ncard-Nimage.card2 {
+  background: url("22.png");
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card2 .date {
+  color: rgb(255, 77, 7);
+}
+.Ncard-Nstats.card2 .Nborder {
+  border-left: 1px solid rgb(185, 67, 20);
+  border-right: 1px solid rgb(185, 67, 20);
+}
+.Ncard-Nstats.card2 {
+  background: rgb(255, 77, 7);
+}
+/*card3*/
+.Ncard-Nimage.card3 {
+  background: url("41.png");
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card3 .date {
+  color: rgb(0, 189, 63);
+}
+.Ncard-Nstats.card3 .Nborder {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+.Ncard-Nstats.card3 {
+  background: rgb(0, 189, 63);
+}
+/*end cards*/
+@media (max-width:1023px){
+  .n-sec3{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background:url("des.gif") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+}
+  @media (max-width:1023px) {
+  
+    .n-vid-abou-us video {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      width: 90%;
+      border-radius: 5px;
+    }
+  
+  
+  }
+
+
+
+@media (max-width:820px) {
+    .M-sec-1 {
+        background: url("bg2.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-right: 0;
+    }
+    
+.container h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+.container a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(100, 164, 3);
+
+}
+
+#a1 {
+    background-color: rgb(100, 164, 3);
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+
+#a2 {
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 1px solid rgb(100, 164, 3);
+    background-color: #fff;
+}
+
+
+}
+
+
+@media (max-width:1280px) {
+
+
+    .slider {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .slide img {
+        width: 100%;
+
+    }
+
+}

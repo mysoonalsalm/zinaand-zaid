@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+* {
+  font-family: 'Tajawal', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*-----------header format-----------------*/
+
+
+
+* {
+  font-family: 'Tajawal', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+nav {
+  direction: rtl;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+
+
+.btn .fa-solid {
+  font-size: 30px;
+  color: rgb(97, 67, 3);
+}
+
+
+
+.M-sec-1 {
+  width: 100%;
+  min-height: 100vh;
+  background: url(bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 90px;
+  direction: rtl;
+
+}
+
+
+/*------------end the header format-----------------------*/
+
+
+
+@media (max-width:767px) {
+
+.main{
+    width: 300px;
+}
+
+
+.M-sec-1 {
+    background: url(bg2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 90px;
+  
+  }
+    
+}  
+
+
+
+@media (max-width:1023px) {
+    .M-sec-1 {
+        background: url(bg2.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 90px;
+      
+      }
+        
+    }  

@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>test</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="  background:#e3eeef;">
+        <div class="container">
+            <a href="#" class="navbar-brand mb-0">
+                <img src="logo.png" class="d-inline-block align-top " width="200px" height="80px">
+            </a>
+
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="#" style="color: rgb(51, 119, 12); font-size: 18px;font-weight: 600;" class="nav-link">الرئيسية</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" style="color: rgb(51, 119, 12); font-size: 18px;font-weight: 600;" class="nav-link">من نحن</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" style="color: rgb(51, 119, 12); font-size: 18px;font-weight: 600;" class="nav-link">بوابة
+                            اللعب</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" style="color: rgb(51, 119, 12); font-size: 18px;font-weight: 600;" class="nav-link">تواصل
+                            معنا</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" style="color: rgb(51, 119, 12); font-size: 18px;font-weight: 600;" class="nav-link">إنشاء
+                            حساب</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn"><i class="fa-solid fa-circle-user"></i> </button>
+        </div>
+
+    </nav>
+
+    <section class="M-sec-1">
+
+        <div class="row mt-5  ">
+            <div class="col-lg-6">
+                <div class="container-fluid  mt-5 mb-5 p-0">
+                    <!--image slider start-->
+                    <div class="slider">
+
+                        <div class="slides">
+
+                            <!--radio buttons start-->
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+                            <!--radio buttons end-->
+
+
+                            <!--slide images start-->
+                            <div class="slide first">
+                                <img src="11.gif" alt="">
+                            </div>
+
+                            <div class="slide">
+                                <img src="22.gif" alt="">
+                            </div>
+
+                            <div class="slide">
+                                <img src="33.gif" alt="">
+                            </div>
+
+                            <div class="slide">
+                                <img src="44.gif" alt="">
+                                </picture>
+                            </div>
+                            <!--slide images end-->
+
+
+                            <!--automatic navigation start-->
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
+                            <!--automatic navigation end-->
+                        </div>
+
+
+
+                    </div>
+                    <!--image slider end-->
+
+                    <!--JavaScript code to automatically move images in slides-->
+                    <script type="text/javascript">
+                        var counter = 1;
+                        setInterval(function () {
+                            document.getElementById('radio' + counter).checked = true;
+                            counter++;
+                            if (counter > 4) {
+                                counter = 1;
+                            }
+                        }, 4000);
+                    </script>
+                    <!--End-->
+
+                </div>
+            </div>
+
+
+             <div class="col-lg-6">
+                <div class="container">
+                    <div class="container text-end  mt-5 mb-5">
+                        <h1>
+                            مرحباً بك في عالم زينة وزيد
+                        </h1>
+                    </div>
+                    <div class="container text-end mb-5 ">
+                        <p>
+                            أهلاً بك في المنصة الأولى والأكثر متعة لتعلم <br>
+                            قصص ممتعة، ألعاب لا مثيل لها تعليمية وممتعة <br>
+                            كل هذا وأكثر من أجل طفلك
+                        </p>
+                    </div>
+
+
+                    <div class="container text-end">
+                        <a id="a1" href="M-Page2/page2.html">ابداء اللعب <i class="fa-solid fa-star"></i></a> <br><br><br>
+                        <a id="a2" href="">سجل الدخول</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+       
+    </section>
+ <!-------------------------------------------------------->
+
+    <section class="M-sec-2">
+        <h1>من نحن</h1>
+    
+        <div class="n-vid-abou-us">
+          <video controls src="22.mp4"></video>
+        </div>
+      </section>
+
+
+      
+   <!--start card ssec-->
+
+   <section id="contact" class="n-sec3">
+    <div class="Ncard">
+        <div class="Ncard-Nimage"></div>
+        <div class="card-text">
+          <span class="date"></span>
+          <h2>رقم الهاتف</h2>
+          <p>+962790805737</p>
+        </div>
+        <div class="Ncard-Nstats">
+          <div class="stat">
+            <div class="value"><sup></sup></div>
+            <div class="type"></div>
+          </div>
+          <div class="stat border">
+            <div class="value"></div>
+            <div class="type"></div>
+          </div>
+          <div class="stat">
+            <div class="value"></div>
+            <div class="type"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="Ncard">
+        <div class="Ncard-Nimage card2"></div>
+        <div class="card-text card2">
+          <span class="date"></span>
+          <h2>البريد الإلكتروني</h2>
+          <p>mangogroup38@gmail.com</p>
+        </div>
+        <div class="Ncard-Nstats card2">
+          <div class="stat">
+            <div class="value"><sup></sup></div>
+            <div class="type"></div>
+          </div>
+          <div class="stat border">
+            <div class="value"></div>
+            <div class="type"></div>
+          </div>
+          <div class="stat">
+            <div class="value"></div>
+            <div class="type"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="Ncard">
+          <div class="Ncard-Nimage card3"></div>
+          <div class="card-text card3">
+            <span class="date"></span>
+            <h2>الدعم الفني المباشر</h2>
+            <p>تواصل الآن</p>
+          </div>
+          <div class="Ncard-Nstats card3">
+            <div class="stat">
+              <div class="value"><sup></sup></div>
+              <div class="type"></div>
+            </div>
+            <div class="stat border">
+              <div class="value"></div>
+              <div class="type"></div>
+            </div>
+            <div class="stat">
+              <div class="value"></div>
+              <div class="type"></div>
+            </div>
+          </div>
+        </div>
+</section>
+<!--End sec Card-->
+<!------------------------------------------------------------------------------------------------> 
+
+</body>
+
+</html>
